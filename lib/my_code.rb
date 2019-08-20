@@ -22,3 +22,6 @@ def reduce_to_total([1, 2, 3,])
   reduce_to_total.reduce(0) { |sum, num| sum + num }
 end
 p reduce_to_total
+
+def reduce_to_all_true(source_array)
+end
