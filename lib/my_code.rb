@@ -23,5 +23,6 @@ def reduce_to_total([1, 2, 3,])
 end
 p reduce_to_total
 
-def reduce_to_all_true(source_array)
+def reduce_to_all_true([ "false", "nil", "nil", "nil", "true"])
+  reduce_to_all_true
 end
