@@ -11,4 +11,5 @@ p map_to_double.map { |n| n * 2}
 map_to_square([1, 2, 3, -9])
 p map_to_square.map { |n| n ** 2}
 
-reduce_to_total(source_array, starting_point)
+reduce_to_total({})
+reduce_to_totoal.reduce(0) { |sum, num| sum + num }
