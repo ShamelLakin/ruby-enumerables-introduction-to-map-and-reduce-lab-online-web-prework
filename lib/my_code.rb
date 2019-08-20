@@ -29,4 +29,7 @@ def reduce_to_all_true([ 1, 2, true, "razmatazz"])
 end
 p reduce_to_all_true([ 1, 2, true, "razmatazz"])
 
-def reduce_to_any_true(source_array)
+def reduce_to_any_true([false, nil, nil, nil, true])
+  reduce_to_any_true.reduce(:)
+end
+p reduce_to_any_true ([false, nil, nil, nil, true])
