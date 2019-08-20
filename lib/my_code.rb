@@ -25,5 +25,5 @@ end
 p reduce_to_total
 
 def reduce_to_all_true([ 1, 2, true, "razmatazz"])
-  reduce_to_all_true
+  reduce_to_all_true.reduce 
 end
