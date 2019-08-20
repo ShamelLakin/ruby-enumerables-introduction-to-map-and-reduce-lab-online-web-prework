@@ -8,4 +8,5 @@ p map_to_no_change.map(dune)
 map_to_double([1, 2, 3, -9])
 p map_to_double.map { |n| n * 2}
 
-map_to_square(source_array)
+map_to_square([1, 2, 3, -9])
+p map_to_square.map { |n| n ** 2}
